@@ -1,6 +1,6 @@
 <?php
-  define('DB_HOST', 'feenix-mariadb.swin.edu.au');
-  define('DB_USER', 's101624498');
-  define('DB_PSWD', 'verstappen');
-  define('DB_NAME', 's101624498_db');
+  define('DB_HOST', 'hostexample');
+  define('DB_USER', 'username');
+  define('DB_PSWD', 'pswd');
+  define('DB_NAME', 'dbName');
 ?>
