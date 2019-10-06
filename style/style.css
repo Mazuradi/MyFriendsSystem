@@ -1,0 +1,39 @@
+/*Stylesheet for Assign 2*/
+
+/*Links*/
+a:link, a:visited {
+	color: #FFC368;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-right: 5px;
+	display: inline-block;
+}
+
+a:hover, a:active {
+	color: #FFCE83;
+	text-decoration: underline;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/*Body look and structure.*/
+body {
+	background-color: #48687F;
+}
+
+/*Components*/
+h1 {
+	color: #FFDFA4;
+	font-family: Calibri, Arial;
+	text-align: center;
+}
+
+p {
+	color: #FFDFA4;
+	font-family: Calibri, Arial;
+	font-size: 1.15em;
+}
+
+h3 {
+	color: B4B4B4;
+}

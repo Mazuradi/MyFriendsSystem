@@ -1,0 +1,108 @@
+/*Stylesheet for Assign 2: login and registration*/
+
+/*Links*/
+a:link, a:visited {
+	color: #FFC368;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-right: 5px;
+	display: inline-block;
+}
+
+a:hover, a:active {
+	color: #FFCE83;
+	text-decoration: underline;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/*Body look and structure.*/
+body {
+	background-color: #48687F;
+}
+
+/*Components*/
+h1 {
+	color: #FFDFA4;
+	font-family: Calibri, Arial;
+	text-align: center;
+}
+
+p {
+	color: #FFDFA4;
+	font-family: Calibri, Arial;
+	font-size: 1.15em;
+}
+
+#div-formposition {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+
+/*Input styling*/
+input[type=email], input[type=password], input[type=text] {
+	margin-bottom: 10px;
+	width: 10%;
+	background-color: #48687F; 
+	border: 2px solid #ccc;
+	color: white;
+	font-family: Calibri, Arial;
+}
+
+input[type=email]:focus, input[type=password]:focus, input[type=text]:focus {
+	background-color: lighblue;
+	border-bottom: 2px solid orange;
+}
+
+.moveinputbox {
+	margin-left: 23px;
+}
+
+#showpswd {
+	margin-bottom: 10px;
+}
+
+.login {
+	font-size: 1.2em;
+	font-family: Calibri, Arial;
+	background-color: #FFDFA4;
+	margin-right: 5px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.clear {
+	font-size: 1.2em;
+	font-family: Calibri, Arial;
+	background-color: #FFDFA4;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+	background-colour: #FFDFB7;
+	border-radius: 6px;
+}
+
+.homelink {
+	margin-left: 38.5%;
+}
+
+/*Registration Page form moving*/
+.pswdmove {
+	margin-left: 58px;
+}
+
+.profnamemove {
+	margin-left: 32px;
+}
+
+.emailmove {
+	margin-left: 79px;
+}
